@@ -1,0 +1,17 @@
+#include "HeaderFile.h"
+#include "Person.h"
+#include "Sales_data.h"
+#include "Screen.h"
+#include "Window_mgr.h"
+
+int main()
+{
+#if 1
+	Screen myscreen(2, 5, 'a');
+	Window_mgr mgr;
+	mgr.AddScreens(myscreen);
+
+#endif
+
+	return 0;
+}
