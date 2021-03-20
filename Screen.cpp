@@ -10,3 +10,7 @@ Screen& Screen::display(ostream& os)
 	do_display(os);
 	return *this;
 }
+Screen::pos Screen::size() const
+{
+	return height * width;
+}
