@@ -4,7 +4,8 @@
 class Screen
 {
 	friend class Window_mgr;
-	//friend Window_mgr& AddScreens(Screen s);
+	//friend Window_mgr& Window_mgr::AddScreens(Screen& s);
+	//friend void Window_mgr::clear(ScreenIndex i);
 public:
 	using pos = string::size_type;
 

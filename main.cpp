@@ -10,6 +10,7 @@ int main()
 	Screen myscreen(2, 5, 'a');
 	Window_mgr mgr;
 	mgr.AddScreens(myscreen);
+	mgr.clear(0);
 
 #endif
 
