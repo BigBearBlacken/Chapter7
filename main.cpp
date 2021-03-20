@@ -9,8 +9,8 @@ int main()
 #if 1
 	Screen myscreen(2, 5, 'a');
 	Window_mgr mgr;
-	mgr.AddScreens(myscreen);
-	mgr.clear(0);
+	unsigned um = mgr.AddScreens(myscreen);
+	mgr.clear(um);
 
 #endif
 
