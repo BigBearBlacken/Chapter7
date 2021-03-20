@@ -24,6 +24,8 @@ public:
 	const Screen& display(ostream& os)const;
 	Screen& display(ostream& os);
 
+	pos size() const;
+
 private:
 	pos cursor = 0;
 	pos height = 0;
