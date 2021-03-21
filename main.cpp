@@ -10,7 +10,7 @@ int main()
 	Screen myscreen= Screen(1, 5, 'c');
 	cout << myscreen.size() << endl;
 	Window_mgr mgr;
-	unsigned um = mgr.AddScreens(myscreen);
+	size_t um = mgr.AddScreens(myscreen);
 	mgr.clear(um);
 
 #endif
