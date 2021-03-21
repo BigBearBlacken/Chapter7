@@ -6,7 +6,7 @@
 
 int main()
 {
-#if 1
+#if 0
 	Screen myscreen= Screen(2, 5, '#');
 	cout << myscreen.size() << endl;
 	Window_mgr mgr;
@@ -14,6 +14,10 @@ int main()
 	mgr.clear(um);
 
 #endif
+#if 1
+	Sales_data item("isok?");
+#endif // 1
+
 
 	return 0;
 }

@@ -7,7 +7,8 @@ class Sales_data
 	friend ostream& print(ostream& os, const Sales_data& item);
 public:
 	Sales_data() = default;
-	Sales_data(const string& s) :bookNo(s) {}
+	//Sales_data(const string& s) :bookNo(s) {}
+	Sales_data(const string& s) :Sales_data(s, 0, 0) { cout << "haha" << endl; }
 	Sales_data(const string& s, unsigned n, double p) :bookNo(s), units_sold(n), revenue(p) {}
 	Sales_data(istream& is);
 
