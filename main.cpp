@@ -7,7 +7,7 @@
 int main()
 {
 #if 1
-	Screen myscreen= Screen(1, 5, 'c');
+	Screen myscreen= Screen(2, 5, '#');
 	cout << myscreen.size() << endl;
 	Window_mgr mgr;
 	size_t um = mgr.AddScreens(myscreen);

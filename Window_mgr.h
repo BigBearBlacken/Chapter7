@@ -6,8 +6,10 @@ class Window_mgr
 {
 public:
 	using ScreenIndex = vector<Screen>::size_type;
+
 	void clear(ScreenIndex i);
-	ScreenIndex AddScreens(Screen& s);
+
+	ScreenIndex AddScreens(const Screen& s);
 private:
-	vector<Screen*> screens;
+	vector<Screen> screens;
 };
